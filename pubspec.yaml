@@ -1,6 +1,6 @@
 name: x_user_agent
-description: Retrieve device user agents in Flutter
-version: 1.0.0
+description: Flutter plugin for reading WebView and system user-agent data on Android and iOS, plus structured device metadata for client hint use cases.
+version: 1.0.0+1
 repository: https://github.com/melihcelik09/x_user_agent
 
 environment:
