@@ -1,0 +1,43 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent/example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent_platform_interface"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent_android"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent_ios"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent_linux"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent_macos"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent_web"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/x_user_agent_windows"
+    schedule:
+      interval: "daily"

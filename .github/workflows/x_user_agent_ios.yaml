@@ -1,0 +1,25 @@
+name: x_user_agent_ios
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/x_user_agent_ios.yaml"
+      - "x_user_agent_ios/**"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/x_user_agent_ios.yaml"
+      - "x_user_agent_ios/**"
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      flutter_version: 3.44.0
+      working_directory: x_user_agent_ios
+
