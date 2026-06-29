@@ -1,10 +1,11 @@
 name: x_user_agent
 description: Retrieve device user agents in Flutter
 version: 1.0.0
-publish_to: none
+repository: https://github.com/melihcelik09/x_user_agent
 
 environment:
   sdk: ^3.12.0
+  flutter: ">=1.10.0"
 
 flutter:
   plugin:
@@ -18,6 +19,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
+  meta: ^1.18.0
 
 dev_dependencies:
   flutter_test:
