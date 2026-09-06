@@ -23,6 +23,8 @@ Pods/
 ServiceDefinitions.json
 xcuserdata/
 **/DerivedData/
+.build/
+.swiftpm/
 
 local.properties
 keystore.properties

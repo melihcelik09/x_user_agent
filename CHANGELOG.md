@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0
+
+- **Android**: Migrated to Built-in Kotlin (AGP 9.0+ ready, removed legacy Kotlin Gradle Plugin application).
+- **iOS**: Verified and standardized Swift Package Manager (SPM) support alongside CocoaPods.
+- **Flutter SDK**: Updated minimum Flutter SDK constraint to `>=3.44.0`.
+- **Docs**: Comprehensive README overhaul with modern styling, SPM Ready, and Built-in Kotlin highlights.
+
 ## 1.0.0+1
 
 - Improve package metadata for pub.dev publishing.
